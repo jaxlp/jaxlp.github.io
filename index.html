@@ -6,10 +6,16 @@
     <title>Libertarian Party of Duval County, Florida</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="/css/materialize.css" rel="stylesheet" />
+
+    <meta property="og:url"                content="https://jaxlp.com">
+    <meta property="og:title"              content="Libertarian Party of Duval County" />
+    <meta property="og:description"        content="Representing the Libertarians of Duval County, Florida" />
+    <!-- @todo Facebook doesn't allow SVGs as the image, so convert to PNG -->
+    <meta property="og:image"              content="https://jaxlp.com/images/lpduval.svg" />
 </head>
 <body>
 
-<header>
+<header id="page-header">
     <div id="logo">
         <h1 id="logo-link">
             <a href="/">
@@ -17,11 +23,6 @@
             </a>
         </h1>
     </div>
-
-    <blockquote cite="Gary Johnson">
-        <span>Using a broad brushstroke, I think Libertarian - most of America are socially accepting and fiscally responsible. I’m in that category. I think, broadly speaking, that’s a Libertarian. A Libertarian is going to be somebody who’s really strong on civil liberties.</span>
-        <cite>&mdash; Gary Johnson</cite>
-    </blockquote>
 </header>
 
 <main>
@@ -238,7 +239,7 @@
             <ul>
                 <li><a href="https://www.lp.org">National Party</a></li>
                 <li><a href="https://www.lpf.org">State Affiliate</a></li>
-                <li>Bylaws (coming soon)</li>
+                <li><a href="/docs/Bylaws.pdf">Bylaws</a></li>
             </ul>
         </div>
 
@@ -588,6 +589,7 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGzxAhXZJ2ynmKACBABJ4kr-Mlfj7kCTs&libraries=places" defer></script>
 
 <script src="/js/app.js" defer></script>
+<script src="/js/quotes.js" defer></script>
 <script src="/js/meetup.js" defer></script>
 <script src="/js/stripe.js" defer></script>
 <script src="/js/maps.js" defer></script>
