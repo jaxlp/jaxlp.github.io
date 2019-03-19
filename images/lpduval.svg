@@ -3,7 +3,7 @@
     <title>Libertarian Party of Duval County</title>
     <defs>
         <style>
-            /** https://fonts.googleapis.com/css?family=Roboto:100 */
+            /* https://fonts.googleapis.com/css?family=Roboto:100 */
             @font-face {
                 font-family: 'Roboto';
                 font-style: normal;
